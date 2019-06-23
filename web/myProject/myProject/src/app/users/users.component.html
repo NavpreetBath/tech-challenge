@@ -1,0 +1,5 @@
+<div class="dropdown">
+  <select class ="dropdown-content" [(ngModel)]="selectedUser" (change)="selected()" name="Select User">
+      <option *ngFor="let user of users" [ngValue]="user"> <a [routerLink]="['/albums', user.id]">{{user.username}}</a></option>
+  </select>
+</div>

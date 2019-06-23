@@ -1,0 +1,11 @@
+<a (click)="goBack()" href="javascript:void(0)">Go back</a>
+<div>
+  <div [ngStyle]="{'bacground-image': 'url('+ photo.imageurl +')'}" class="img-container"></div>
+</div>
+<div class="row">
+<div class="caption-row">
+  <span id = "caption">
+    <img [src]="photo.imageUrl" class ="" [alt]="photo.title" />
+  </span>
+</div>
+</div>

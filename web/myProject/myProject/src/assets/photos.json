@@ -1,0 +1,71 @@
+[
+  {
+      "id": 1,
+      "username": "Alex",
+      "albums":
+          [
+              {
+                  "photoid": 1,
+                  "imageUrl": "assets/photos/pexels-photo-145939.jpeg",
+                  "title": "5.2 cu. ft. High-Efficiency Stackable Front-Load Washer in White",
+                  "date": "17-10-2018",
+                  "category": "wildlife"
+              },
+              {
+                  "photoid": 2,
+                  "imageUrl": "assets/photos/pexels-photo-207962.jpeg",
+                  "title": "5.2 cu. ft. High-Efficiency Stackable Front-Load Washer in White",
+                  "date": "17-10-2018",
+                  "category": "nature"
+              },
+              {
+                  "photoid": 3,
+                  "imageUrl": "assets/photos/pexels-photo-257840.jpeg",
+                  "title": "5.2 cu. ft. High-Efficiency Stackable Front-Load Washer in White",
+                  "date": "17-10-2018",
+                  "category": "nature"
+              }]
+  },
+  {
+      "id": 2,
+      "username": "Ben",
+      "albums":
+          [
+              {
+                  "photoid": 4,
+                  "imageUrl": "assets/photos/pexels-photo-236047.jpeg",
+                  "title": "5.2 cu. ft. High-Efficiency Stackable Front-Load Washer in White",
+                  "date": "17-10-2018",
+                  "category": "nature"
+              },
+              {
+                  "photoid": 5,
+                  "imageUrl": "assets/photos/pexels-photo-462118.jpeg",
+                  "title": "5.2 cu. ft. High-Efficiency Stackable Front-Load Washer in White",
+                  "date": "17-10-2018",
+                  "category": "wildlife"
+              },
+              {
+                  "photoid": 6,
+                  "imageUrl": "assets/photos/pexels-photo-236047.jpeg",
+                  "title": "5.2 cu. ft. High-Efficiency Stackable Front-Load Washer in White",
+                  "date": "17-10-2018",
+                  "category": "nature"
+              },
+              {
+                  "photoid": 7,
+                  "imageUrl": "assets/photos/pexels-photo-414612.jpeg",
+                  "title": "5.2 cu. ft. High-Efficiency Stackable Front-Load Washer in White",
+                  "date": "17-10-2018",
+                  "category": "nature"
+              },
+              {
+                  "photoid": 8,
+                  "imageUrl": "assets/photos/scarlet-honeyeater-bird-red-feathers.jpg",
+                  "title": "5.2 cu. ft. High-Efficiency Stackable Front-Load Washer in White",
+                  "date": "17-10-2018",
+                  "category": "wildlife"
+              }
+          ]
+  }
+]

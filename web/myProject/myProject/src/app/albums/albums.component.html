@@ -1,0 +1,14 @@
+<div>
+  <h3>{{user.username}}'s {{title}}</h3>
+  <button [class.active]="filterBy=='all'" (click)="filterBy='all'" role="button">All</button>
+  <button [class.active]="filterBy=='nature'" (click)="filterBy='nature'">Nature</button>
+  <button [class.active]="filterBy=='wildlife'" (click)="filterBy='wildlife'">Wildlife</button>
+  <ul id="thumbnails">
+    <li style="list-style: none" *ngFor="let photo of (user.albums | imageFilter: filterBy) ">
+      <a [routerLink]="['/photo', photo.photoid]">
+        <img [src]="photo.imageUrl" class="thumbnail" [alt]="photo.title" />
+      </a>
+    </li>
+  </ul>
+
+</div>
